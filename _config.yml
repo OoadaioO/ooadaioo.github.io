@@ -61,3 +61,12 @@ paginate: 6
 
 jekyll_compose:
   auto_open: true
+
+jekyll_admin:
+  hidden_links:
+#    - posts
+#    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+
