@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 水色长弓 | 阿呆
+title: 吐泡泡的阿呆
 brief-intro: android Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ooadaioo.github.io" # the base hostname & protocol for your site
@@ -58,3 +58,6 @@ excerpt_separator: "\n\n\n\n"
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
+
+jekyll_compose:
+  auto_open: true
