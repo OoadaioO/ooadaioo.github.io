@@ -12,7 +12,7 @@ author: adai
 
 在配置Nginx服务器的时候，发现php需要配置fastcgi才能执行，简单了解了一下
 
-## 基础
+## 一、基础
 
 ### 静态网页请求处理
 
@@ -29,7 +29,7 @@ author: adai
 - PHP-FPM: PHP提供的CGI协议接口程序，提供智能任务管理
 
 
-##FastCGI
+## 二、FastCGI
 
 ### 架构：C/S
 
@@ -50,10 +50,11 @@ web server请求 ==》启动cgi程序进程，处理请求==》响应处理
 web server启动==》初始化fastcgi管理器
 web server请求==》管理器分配子进程处理===》子进程响应处理、结束===》等待下个请求
 
-## PHP-FPM
+## 三、PHP-FPM
 php-cgi 是php提供的cgi处理程序，仅处理请求cgi解析，返回响应结果
 php-fpm 是一个fastcgi管理器，用于管理进程池，处理web server请求
 
+----
 
 ![思维导图]({{site.url}}/assets/2018-12-2/php_cgi_mindmap.svg)
 
