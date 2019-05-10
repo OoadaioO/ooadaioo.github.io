@@ -13,7 +13,7 @@ author: adai
 #步骤
 1. 安装tesseract库 brew install tesseract
 2. pip安装python的tesseract接口 pip install pytesseract
-3. 下载中文数据集 [tessdata github](!https://link.jianshu.com/?t=https%3A%2F%2Fgithub.com%2Ftesseract-ocr%2Ftessdata)chi_sim.traineddata放置到tesseract安装目录下share/tessdata e.g:/usr/local/Cellar/tesseract/3.05.01/share/tessdata
+3. 下载中文数据集 [tessdata github](!https://link.jianshu.com/?t=https%3A%2F%2Fgithub.com%2Ftesseract-ocr%2Ftessdata)  chi_sim.traineddata放置到tesseract安装目录下share/tessdata e.g:/usr/local/Cellar/tesseract/3.05.01/share/tessdata
 
 
 #使用tesseract
