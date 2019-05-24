@@ -75,14 +75,12 @@ fontname 必须与**step1** 命名的fontname一致
 三个步骤shapeclustering 、 mftraining 和 cntraining
 
 ```shell
-
-#gen shaptable
-$shapeclustering -F font_properties -U chi_sim.unicharset *.tr
-#gen inttemp
-$mftraining -F font_properties -U unicharset -O chi_sim.unicharset *.tr
-# ten normproto
-$cntraining *.tr
-
+    #gen shaptable
+    $shapeclustering -F font_properties -U chi_sim.unicharset *.tr
+    #gen inttemp
+    $mftraining -F font_properties -U unicharset -O chi_sim.unicharset *.tr
+    # ten normproto
+    $cntraining *.tr
 ```
 
 * **step 8: 合并文件**
@@ -90,7 +88,5 @@ $cntraining *.tr
 生成的五个文件shapetable，normproto，inttemp，pffmtable，unicharset 用**\[lang\]**为前缀重命名
 
 ```shell
-
 combine_tessdata chi_sim.
-
 ```
