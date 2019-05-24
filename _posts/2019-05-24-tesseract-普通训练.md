@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【笔记】tesseract
+title: 【笔记】tesseract-普通训练
 categories: 编程
 tags: 后端 AI
 author: adai
